@@ -1,4 +1,5 @@
 vplGit, accès à Git :
 * récupere ce fichier sur un répository git (sur run)
 * dépose ce fichier sur un répository git (sur évaluate)
+* quoi d'autre ?
 
