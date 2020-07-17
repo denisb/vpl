@@ -1,3 +1,4 @@
 vplGit, accès à Git :
-* dépose ce fichier sur un répository git (avec login/mpd demandé via un run)
+* dépose le fichier vpl sur un répository git (avec login/mpd demandé via un run)
+* récupère le fichier git (via un debug)
 
