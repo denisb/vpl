@@ -1,11 +1,12 @@
 vplGit, accès à Git (presque tout auto) :
 * dépose le fichier vpl sur un répository git (commit/push avec login/mpd demandé via bouton run)
 * récupère le fichier git (pull via bouton debug, mais bloque sur la fin)
-  (finir à la main : demander clipBoard puis copy dans l'éditeur Vpl ; ou par prog faire document.querySelectorAll(".fa-clipboard")[1].click(); document.querySelectorAll(".ace_editor")[0].env.editor.setValue(document.querySelectorAll(".vpl_clipboard_entry1")[0].value);)
+  (finir à la main : demander clipBoard puis copy dans l'éditeur Vpl ; ou par programme faire document.querySelectorAll(".fa-clipboard")[1].click(); document.querySelectorAll(".ace_editor")[0].env.editor.setValue(document.querySelectorAll(".vpl_clipboard_entry1")[0].value);)
 Reste à faire :
-* automatiser le petit bout de programme pour faire la fin de la récupération de fichier (dès que possible)
-* fermer les fenetres de shell et de copyboard automatiquement (dès que possible)
+* automatiser le petit bout de programme pour faire la fin de la récupération de fichier (dès que possible ou laisser "à la main")
+* fermer les fenetres de shell et de copyboard automatiquement (dès que possible ? ou laisser tel que avec fermeture "à la main")
 * ajouter un bouton pour Vpl>Git et un pour Git>Vpl, lier les scripts à ces boutons sans trop géner les boutons initiaux
+* ajouter une saisie du message de modification dans le processus de dépôt
 * prévoir d'autres boutons pour les 120 autres commandes de Git ...
 
 
