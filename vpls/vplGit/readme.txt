@@ -2,3 +2,5 @@
 
 Demo:
 * using vpl with git
+* using git with vpl shell
+
