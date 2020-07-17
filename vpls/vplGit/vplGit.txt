@@ -1,6 +1,6 @@
-vplGit, accès à Git (presque) :
+vplGit, accès à Git :
 * dépose le fichier vpl sur un répository git (avec login/mpd demandé via un run)
-* récupère le fichier git (via un debug, mais bloque sur document.querySelectorAll(".ace_editor")[0].env.editor.setValue(document.querySelectorAll(".vpl_clipboard_entry1")[0].value))
-  (ou demander clipBoard puis copy à la main ou par prog)
+* récupère le fichier git (via un debug, mais bloque sur )
+  (ou demander clipBoard puis copy à la main ou par prog, par exemple document.querySelectorAll(".fa-clipboard")[1].click(); document.querySelectorAll(".ace_editor")[0].env.editor.setValue(document.querySelectorAll(".vpl_clipboard_entry1")[0].value);)
 
 
