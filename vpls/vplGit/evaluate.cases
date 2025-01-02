@@ -1,2 +1,12 @@
 Exemple factive de evaluate.cases
 init : rien
+original : 
+Case = Test  0
+input =  o.
+o.
+output = Résultat : o
+
+Case = Test  1
+input =  i.
+i.
+output = Résultat : ii
